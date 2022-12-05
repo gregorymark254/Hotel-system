@@ -24,7 +24,7 @@ const Contact = () => {
       <hr />
 
       <section className="container mx-auto p-4">
-        <div className="text-center p-12">
+        <div className="text-center p-12 space-y-5">
           <h3><b>Let us hear from you directly!</b></h3>
           <h4>Our guests always travel the world in style. Mention @Kempinski on Instagram for a chance to be featured!</h4>
         </div>
@@ -54,8 +54,8 @@ const Contact = () => {
               </div>
             </main>
 
-            <main className="w-full p-8">
-              <form className="block shadow-lg rounded-lg p-8"> 
+            <main className="w-full p-4">
+              <form className="block"> 
                 <div className="mb-4">
                   <input
                     type="text"
@@ -86,7 +86,7 @@ const Contact = () => {
                 <div className="mb-4">
                   <textarea 
                     className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                    placeholder="Phone number"
+                    placeholder="Message"
                     name="number" 
                     id="number"
                     cols="30" rows="10">                 
