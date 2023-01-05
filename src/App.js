@@ -7,6 +7,8 @@ import Footer from './pages/Footer'
 import Missing from './pages/Missing'
 
 import Rooms from "./components/Rooms/Rooms"
+import RoomDetails from "./components/Rooms/roomDetails"
+import Checkout from './components/Transactions/Checkout'
 import Login from './components/Account/Login'
 import Register from './components/Account/Register'
 import FogotPassword from './components/Account/ForgotPassword'
@@ -23,6 +25,8 @@ function App() {
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/gallery" component={Gallery} />
         <Route exact path="/rooms" component={Rooms} />
+        <Route exact path="/room-details" component={RoomDetails} />
+        <Route exact path="/checkout" component={Checkout} />
         <Route exact path="/login" component={Login} />
         <Route exact path="/register" component={Register} />
         <Route exact path="/reset-password" component={FogotPassword} />

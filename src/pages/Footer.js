@@ -6,7 +6,7 @@ const Footer = () => {
     <main className="bg-[#1B1A17] text-neutral-500">
       <section className="container mx-auto p-4">
         <div className="flex items-center justify-center text-center">
-          <div className="space-y-6 p-6">
+          <div className="space-y-6 p-5">
             <div>
               <h3 className="text-white">Get updates & exclusive offers</h3>
               <p>Sign up to our newsletter to be the first to hear aboutnew openings, offers and more.</p>
@@ -31,7 +31,7 @@ const Footer = () => {
       <hr />
 
       <section className="container mx-auto p-4">
-        <main className="md:flex justify-center items-center p-4">
+        <main className="md:flex justify-center items-center">
           <div className="space-y-3 p-6">
             <img src="https://hotel.bdtask-demo.com/xainhotel/assets/img/2021-11-18/F.png" alt="logo" />
             <p>Plot-7, Road-02, Hotel Motel Zone, Kisumu Beach Road,<br/> Kenya</p>

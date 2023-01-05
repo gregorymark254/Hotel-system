@@ -54,7 +54,7 @@ const Login = () => {
   return (
     <div className="min-h-screen">
       <div className="container mx-auto p-4">
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center ">
           <form className="block shadow-lg rounded-lg p-8" onSubmit={handleSubmit}>
             <div className="text-center p-5">
               <h3><b>Sign into your account!</b></h3>
