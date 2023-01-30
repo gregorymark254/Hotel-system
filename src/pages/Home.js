@@ -87,47 +87,43 @@ const Home = () => {
       </div>
 
       
-
-      <div className="container mx-auto px-6  xl:px-52 absolute -mt-12">
-        <form className="block bg-white p-4 rounded-lg ">
-          <div className="md:flex items-center justify-center  ">
-            <div className="md:flex items-center justify-center">
-              <input 
-                type="date" 
-                className="form-control block px-3 py-6 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                placeholder="CHECK IN"
-              />
-              <input 
-                type="date" 
-                className="form-control block  px-3 py-6 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                placeholder="CHECK OUT"
-              />
-            </div>
-            <div className="">
-              <input 
-                type="number" 
-                min="1"
-                className="form-control block  px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                placeholder="ADULTS"
-              />
-              <input 
-                type="number" 
-                min="1"
-                className="form-control block  px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                placeholder="CHILDREN"
-              />
-            </div>
-            <div className="flex items-center justify-center">
-              <img className="h-20" src="https://hotel.bdtask-demo.com/xainhotel/website_assets/img/small-vertical.svg" alt="" />
-              <button className="bg-red-700 text-slate-300 p-1 text-sm rounded">
-                <p>Need help : <br/> 0798551778</p>
-                <br />
-                <p >Check Availbility</p>
-              </button>
-            </div>
+      <form className="container mx-auto px-6 p-4 absolute -mt-12">
+        <div className="md:flex items-center justify-center  ">
+          <div className="md:flex items-center justify-center">
+            <input 
+              type="date" 
+              className="px-14 py-9 border border-solid border-gray-300 rounded-l-md focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+              placeholder="CHECK IN"
+            />
+            <input 
+              type="date" 
+              className="px-14 py-9 border border-solid border-gray-300  focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+              placeholder="CHECK OUT"
+            />
           </div>
-        </form>
-      </div>
+          <div className="">
+            <input 
+              type="number" 
+              min="1"
+              className="block  px-3 py-3  border border-solid border-gray-300 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+              placeholder="ADULTS"
+            />
+            <input 
+              type="number" 
+              min="1"
+              className="block  px-3 py-3 border border-solid border-gray-300 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+              placeholder="CHILDREN"
+            />
+          </div>
+          <button className="bg-red-700 text-slate-300 py-2.5 px-8 text-sm rounded-r-md">
+            <p>Need help : <br/> 0798551778</p>
+            <br />
+            <p >Check Availbility</p>
+          </button>
+
+        </div>
+      </form>
+
 
 
       <div className="bg-[#ececec]">

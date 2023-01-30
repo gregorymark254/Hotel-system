@@ -25,8 +25,7 @@ const Checkout = () => {
             <div className="flex items-center mb-4 space-x-4">
               <h2 className="text-red-700"><BsDashLg/></h2>
               <h3><b>Payment Methods</b></h3>
-            </div>
-            
+            </div>           
             <form className="bg-white p-12">
               <div className="md:flex ">
                 <div className="mb-6 xl:w-96 p-2">
@@ -35,7 +34,7 @@ const Checkout = () => {
                     <option value="">Select Method</option>
                     <option value="">M-Pesa</option>
                     <option value="">PayPal</option>
-                    <option value="">SSLComerz</option>
+                    <option value="">Cash Payment</option>
                   </select>
                 </div>
                 <div className="p-2 mt-4">
@@ -44,9 +43,7 @@ const Checkout = () => {
                 </div>
               </div>
               <button className="py-2 px-4 mt-4 rounded-md bg-red-700 text-white">Submit</button>
-            </form>
-              
-            
+            </form>        
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ const About = () => {
   return (
     <main>
       <div className="container mx-auto p-4">
-        <div className="text-center p-6 m-14 space-y-3">
+        <div className="text-center p-6 my-10 space-y-3">
           <h1 className="text-6xl"><b>Small team. Big hearts.</b></h1>
           <h4 className="text-xl text-slate-400">Our focus is always on finding the best people to work with. Our bar is high, And you look ready to take on the challenge.</h4>
         </div>
@@ -41,40 +41,41 @@ const About = () => {
           </div>
         </section>
 
-        <div className="md:grid grid-cols-4 gap-4 p-8 m-8">
-          <div>
+        <div className="md:grid grid-cols-4 gap-4 p-8 m-8 text-center">
+          <div className="m-4">
             <h1 className="text-red-700">655</h1>
             <h4>Monthly Active Users</h4>
           </div>
-          <div>
+          <div className="m-4">
             <h1 className="text-red-700">3131</h1>
             <h4>Team Members</h4>
           </div>
-          <div>
+          <div className="m-4">
             <h1 className="text-red-700">5000</h1>
             <h4>User Projects Published</h4>
           </div>
-          <div>
+          <div className="m-4">
             <h1 className="text-red-700">5531</h1>
             <h4>Server Uptime</h4>
           </div>
         </div>
 
-        <div className="flex items-center justify-center text-center p-8">
+        <div className="md:flex items-center justify-center text-center mb-6">
           <div className="space-y-8">
             <div>
-              <h3><b>Trusted by thousands of companies</b></h3>
-              <p>Our guests always travel the world in style. Mention @Kempinski on Instagram for a chance to be featured!</p>
+              <h2><b>Trusted by thousands of companies</b></h2>
+              <br />
+              <span>Our guests always travel the world in style. Mention @Kempinski on Instagram for a chance to be featured!</span>
             </div>
-            <div className="grid grid-cols-6 gap-20 mb-4">
-              <img src="https://hotel.bdtask-demo.com/xainhotel/assets/img/banner/2021-11-18/i.jpg" alt="" />
-              <img src="https://hotel.bdtask-demo.com/xainhotel/assets/img/banner/2021-01-11/a1.svg" alt="" />
-              <img src="https://hotel.bdtask-demo.com/xainhotel/assets/img/banner/2021-01-11/f.svg" alt="" />
-              <img src="https://hotel.bdtask-demo.com/xainhotel/assets/img/banner/2021-01-11/g.svg" alt="" />
-              <img src="https://hotel.bdtask-demo.com/xainhotel/assets/img/banner/2021-01-11/p.svg" alt="" />
-              <img src="https://hotel.bdtask-demo.com/xainhotel/assets/img/banner/2021-01-11/s.svg" alt="" />
+            <div className="md:grid grid-cols-6 gap-20 mb-4">
+              <img className="md:p-6" src="https://hotel.bdtask-demo.com/xainhotel/assets/img/banner/2021-11-18/i.jpg" alt="" />
+              <img className="md:p-4" src="https://hotel.bdtask-demo.com/xainhotel/assets/img/banner/2021-01-11/a1.svg" alt="" />
+              <img className="md:p-4" src="https://hotel.bdtask-demo.com/xainhotel/assets/img/banner/2021-01-11/f.svg" alt="" />
+              <img className="md:p-4" src="https://hotel.bdtask-demo.com/xainhotel/assets/img/banner/2021-01-11/g.svg" alt="" />
+              <img className="md:p-4" src="https://hotel.bdtask-demo.com/xainhotel/assets/img/banner/2021-01-11/p.svg" alt="" />
+              <img className="md:p-4" src="https://hotel.bdtask-demo.com/xainhotel/assets/img/banner/2021-01-11/s.svg" alt="" />
             </div>
-            <div className="grid grid-cols-6 gap-4 justify-center items-center mb-4">
+            <div className="md:grid grid-cols-6 gap-4 justify-center items-center mb-4">
               <img src="https://hotel.bdtask-demo.com/xainhotel/assets/img/banner/2021-01-11/s1.svg" alt="" />
               <img src="https://hotel.bdtask-demo.com/xainhotel/assets/img/banner/2021-01-11/s2.svg" alt="" />
               <img src="https://hotel.bdtask-demo.com/xainhotel/assets/img/banner/2021-01-11/s3.svg" alt="" />
