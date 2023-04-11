@@ -18,7 +18,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault()
     try {
-      const response = await axios.post('https://ca8d-41-220-235-163.in.ngrok.io/api/auth/login',
+      const response = await axios.post('https://xain-hotel-server.up.railway.app/api/auth/login',
       JSON.stringify({email, password}),
       {
         headers : { 'Content-type' : 'application/json'},
