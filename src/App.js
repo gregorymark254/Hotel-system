@@ -11,6 +11,7 @@ import RoomDetails from "./components/Rooms/roomDetails"
 import Checkout from './components/Transactions/Checkout'
 import Login from './components/Account/Login'
 import Register from './components/Account/Register'
+import Profile from './components/Account/Profile'
 import FogotPassword from './components/Account/ForgotPassword'
 
 import { Switch, Route } from 'react-router-dom'
@@ -29,6 +30,7 @@ function App() {
         <Route exact path="/checkout" component={Checkout} />
         <Route exact path="/login" component={Login} />
         <Route exact path="/register" component={Register} />
+        <Route exact path="/profile" component={Profile} />
         <Route exact path="/reset-password" component={FogotPassword} />
         <Route exact path="*" component={Missing} />
       </Switch>

@@ -8,56 +8,21 @@ const Home = () => {
       <div className="relative overflow-hidden hero">
         <div id="carouselExampleCrossfade" className="carousel slide carousel-fade relative" data-bs-ride="carousel">
           <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCrossfade"
-              data-bs-slide-to="0"
-              className="active "
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCrossfade"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCrossfade"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
+            <button type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
           <div className="carousel-inner relative w-full overflow-hidden">
-            <div className="carousel-item active float-left w-full">
-              <img
-                src="https://hotel.bdtask-demo.com/xainhotel/assets/img/banner/2020-02-26/b.jpg"
-                className="block w-full"
-                height="1920px"
-                width="1000px"
-                alt="Wild Landscape"
-              />
+            <div className="carousel-item active float-left w-full brightness-50">
+              <img src="https://hotel.bdtask-demo.com/xainhotel/assets/img/banner/2020-02-26/b.jpg" className="block w-full" alt="Wild Landscape" />
             </div>
-            <div className="carousel-item float-left w-full">
-              <img
-                src="https://hotel.bdtask-demo.com/xainhotel/assets/img/banner/2019-05-27/s2.jpg"
-                className="block w-full"
-                height="1920px"
-                width="1000px"
-                alt="Camera"
-              />
+            <div className="carousel-item float-left w-full brightness-50">
+              <img src="https://hotel.bdtask-demo.com/xainhotel/assets/img/banner/2019-05-27/s2.jpg" className="block w-full" alt="Camera" />
             </div>
-            <div className="carousel-item float-left w-full">
-              <img
-                src="https://hotel.bdtask-demo.com/xainhotel/assets/img/banner/2019-05-27/s1.jpg"
-                className="block w-full"
-                height="1920px"
-                width="1000px"
-                alt="Exotic Fruits"
-              />
+            <div className="carousel-item float-left w-full brightness-50">
+              <img src="https://hotel.bdtask-demo.com/xainhotel/assets/img/banner/2019-05-27/s1.jpg" className="block w-full" alt="Exotic Fruits" />
             </div>
-            <div className="carousel-caption hidden md:block top-36 absolute text-center">
+            <div className="carousel-caption md:block top-36 absolute text-center">
               <p><b>BEYOND IMAGINABLE</b></p>
               <h1 className="text-xl font-bold">Enjoy </h1>
               <h1 className="text-xl font-bold">Your Vacation </h1>
@@ -65,21 +30,11 @@ const Home = () => {
               <p><b>It is a long established fact that a reader will be distracted by the <br /> readable content of a page when looking at its layout.</b></p>
             </div>
           </div>
-          <button
-            className="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
-            type="button"
-            data-bs-target="#carouselExampleCrossfade"
-            data-bs-slide="prev"
-          >
+          <button className="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0" type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide="prev" >
             <span className="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
             <span className="visually-hidden">Previous</span>
           </button>
-          <button
-            className="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
-            type="button"
-            data-bs-target="#carouselExampleCrossfade"
-            data-bs-slide="next"
-          >
+          <button className="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0" type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide="next">
             <span className="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
             <span className="visually-hidden">Next</span>
           </button>
@@ -87,21 +42,28 @@ const Home = () => {
       </div>
 
       
-      <form className="container mx-auto px-6 p-4 absolute -mt-12">
-        <div className="md:flex items-center justify-center  ">
-          <div className="md:flex items-center justify-center">
+      <form className="container mx-auto px-6 p-4 flex items-center justify-center">
+        <div className="flex flex-wrap items-center justify-center  ">
+          <div className="flex flex-wrap items-center justify-center">
+            <div>
+            <h6>Check In</h6>
             <input 
               type="date" 
               className="px-14 py-9 border border-solid border-gray-300 rounded-l-md focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
               placeholder="CHECK IN"
             />
-            <input 
-              type="date" 
-              className="px-14 py-9 border border-solid border-gray-300  focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-              placeholder="CHECK OUT"
-            />
+            </div>
+            <div>
+              <h6>Check Out</h6>
+                <input 
+                  type="date" 
+                  className="px-14 py-9 border border-solid border-gray-300  focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                  placeholder="CHECK OUT"
+                />
+            </div>
           </div>
           <div className="">
+            <h6>Number of Guests</h6>
             <input 
               type="number" 
               min="1"
@@ -115,12 +77,11 @@ const Home = () => {
               placeholder="CHILDREN"
             />
           </div>
-          <button className="bg-red-700 text-slate-300 py-2.5 px-8 text-sm rounded-r-md">
+          <button className="bg-red-700 text-white py-2.5 px-8 text-sm rounded-r-md hover:bg-red-500 mt-6">
             <p>Need help : <br/> 0798551778</p>
             <br />
             <p >Check Availbility</p>
           </button>
-
         </div>
       </form>
 
